@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Raleway|Roboto|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="//db.onlinewebfonts.com/c/4a0c1d6164df2c0aa88da1437cd38ef1?family=Copyright+Klim+Type+Foundry" rel="stylesheet" type="text/css"/>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding:0;
+			font-family: 'Montserrat'
+		}
+		.canvas {
+			height: 100vh;
+			width: 100vw;
+			background: #0A192F;
+			overflow: hidden;
+			position: absolute;
+			top: 0;
+			z-index: 4;
+		}
+		.ball {
+			height: 8px;
+			width: 8px;
+			background: #fff;
+			border-radius: 50%;
+			position: relative;
+			opacity: 0.3
+
+		}
+		.navbar {
+			z-index: 10;
+			background: transparent;
+			height: auto;
+			width: 100vw;
+			position: absolute;
+			display: flex;
+			flex-direction: row;
+			background-color: #0A192F;
+			justify-content: flex-end;
+		}
+		.ntext {
+			padding: 4vh 2vw 4vh 2vw;
+
+		}
+		.ntext {
+			color: #8892B0;
+			cursor: pointer;
+		}
+		.resume {
+
+			padding: 10px 6px 10px 6px;
+			border-radius: 5px;
+
+		}
+		.res-border {
+			border: 1px solid #fff;
+			color: #fff;
+		}
+		.social-page {
+
+			background: transparent;
+			position: absolute;
+			bottom: 2px;
+			left: 3vw;
+			z-index: 14;
+			display: flex;
+			flex-direction: column;
+
+		}
+		.fa {
+			font-size: 22px;
+			color: #ccd6f6;
+			padding: 2vh 0 2vh 0;
+			transition: 300ms;
+
+		}
+		.line {
+			height: 100px;
+			width: 1px;
+			margin: auto;
+			background:#fff;
+
+		}
+		.email-page {
+			position: absolute;
+			bottom: 0;
+			display: flex;
+			flex-direction: column;
+			right: -2vw
+
+
+
+		}
+		.email {
+			color:  #ccd6f6;
+			font-size: 14px;
+			transform: rotate(90deg) translateX(-12vh);
+			transition: 300ms;
+			cursor:pointer;
+
+
+
+		}
+		.email:hover {
+			transform: rotate(90deg) translateX(-13vh);
+		}
+		.name-container {
+
+			z-index: 100;
+
+			height: 85vh;
+			display: flex;
+			flex-direction: column;
+			justify-content:center;
+			padding-left: 15vw;
+
+		}
+		.name,.random-name {
+			font-size: 60px;
+			font-family: 'Montserrat';
+			color: #ccd6f6;
+
+		}
+		.random-name {
+			font-size: 30px;
+			letter-spacing: 2px;
+			color: #8892b0;
+		}
+
+		.fa:hover {
+			transform:  translateY(-1vh);
+		}
+a {
+	text-decoration: none;
+}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div class="canvas">
+
+		<div class="navbar">
+			<div class="ntext nav-image"></div>
+			<a href="https://sahninsh.github.io/Chatroom.io/" target="_blank"> <div class="ntext n1"><div class="resume">Chatroom.io</div></div></a>
+			<a href="https://sahninsh.github.io/Sampann-web/" target="-_blank"><div class="ntext n1"><div class="resume">Sampann</div></div></a>
+			<a href="https://sahninsh.github.io/pixel-web-promo/" target="_blank"><div class="ntext n1"><div class="resume">Pixel.io</div></div></a>
+			<!--<div class="ntext n4"><div class="resume">Contact</div></div> -->
+			<div class="ntext n5"><div class="resume res-border">Resume</div></div>
+		</div>
+
+			<div class="name-container">
+				<div class="name">
+					Ansh Sahni.
+				</div>
+				<div class="random-name">
+					I build things for the internet.
+				</div>
+
+			</div>
+
+		<div class="social-page">
+			<a href="https://github.com/sahninsh"> <div class="fa fa-github"></div>  </a>
+			<a href="https://twitter.com/Anshsahni4"> <div class="fa fa-twitter"></div>  </a>
+			<a href="https://www.instagram.com/sahninsh.js/"> <div class="fa fa-instagram"></div>  </a>
+			<a href="https://www.linkedin.com/in/ansh-sahni-a437a316b/"> <div class="fa fa-linkedin"></div>  </a>
+			<div class="line"></div>
+		</div>
+		<div class="email-page">
+			<a href="mailto:sahniansh2004@gmail.com"><div class="email">sahniansh2004@gmail.com</div></a>
+			<div class="line"></div>
+		</div>
+	</div>
+	<script >
+	/*	const canvas = document.querySelector('.canvas');
+		var ball,random;
+		for ( let i = 0; i < 100;i++){
+			ball = document.createElement('div');
+			ball.classList.add('ball');
+			canvas.appendChild(ball);
+			random = Math.ceil(Math.random() * 280 );
+			ball.style.left = random + "vh";
+
+
+		} */
+	</script>
+</body>
+</html>
